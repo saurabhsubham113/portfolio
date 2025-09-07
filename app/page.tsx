@@ -427,7 +427,7 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { name: "GitHub", handle: "@saurabhsubham113", url: "https://github.com/saurabhsubham113" },
-                  { name: "LinkedIn", handle: "subham-saurabh", url: "#" }
+                  { name: "LinkedIn", handle: "@saurabhsubam113", url: "https://www.linkedin.com/in/saurabhsubam113/" }
                 ].map((social) => (
                   <Link
                     key={social.name}
